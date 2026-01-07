@@ -1091,9 +1091,21 @@ onUnmounted(() => {
         </div>
       </div>
       <div class="container footer-meta">
-        <p>
-          © {{ new Date().getFullYear() }} EventOS Studio. All rights reserved.
-        </p>
+        <div>
+          <p>
+            © {{ new Date().getFullYear() }} EventOS Studio. All rights
+            reserved.
+          </p>
+          <p class="footer-attribution">
+            Images by
+            <a href="https://unsplash.com/" target="_blank" rel="noreferrer"
+              >Unsplash</a
+            >. Icons by
+            <a href="https://lucide.dev/icons/" target="_blank" rel="noreferrer"
+              >Lucide</a
+            >
+          </p>
+        </div>
         <div class="footer-meta-links">
           <a href="#">Privacy</a>
           <a href="#">Terms</a>
