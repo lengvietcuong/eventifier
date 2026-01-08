@@ -344,12 +344,8 @@ onUnmounted(() => {
       <div class="mobile-menu-inner">
         <div class="mobile-menu-head">
           <div class="mobile-menu-brand">
-            <img
-              src="/calendar.png"
-              alt="EventOS Studio Logo"
-              class="brand-logo"
-            />
-            <p class="eyebrow brand-text">EventOS Studio</p>
+            <img src="/calendar.png" alt="Eventifier Logo" class="brand-logo" />
+            <p class="eyebrow brand-text">Eventifier</p>
             <button
               class="theme-toggle"
               type="button"
@@ -405,12 +401,8 @@ onUnmounted(() => {
     <header class="site-header" :class="{ 'header-hidden': !isHeaderVisible }">
       <div class="container header-inner">
         <div class="header-brand">
-          <img
-            src="/calendar.png"
-            alt="EventOS Studio Logo"
-            class="brand-logo"
-          />
-          <p class="eyebrow brand-text brand-text-large">EventOS Studio</p>
+          <img src="/calendar.png" alt="Eventifier Logo" class="brand-logo" />
+          <p class="eyebrow brand-text brand-text-large">Eventifier</p>
         </div>
         <nav class="site-nav" aria-label="Primary">
           <a
@@ -1017,12 +1009,8 @@ onUnmounted(() => {
       <div class="container footer-grid">
         <div class="footer-brand-section">
           <div class="footer-brand">
-            <img
-              src="/calendar.png"
-              alt="EventOS Studio Logo"
-              class="brand-logo"
-            />
-            <p class="eyebrow brand-text">EventOS Studio</p>
+            <img src="/calendar.png" alt="Eventifier Logo" class="brand-logo" />
+            <p class="eyebrow brand-text">Eventifier</p>
           </div>
           <p class="footer-about">
             Empowering organizations to deliver unforgettable events with
@@ -1093,8 +1081,7 @@ onUnmounted(() => {
       <div class="container footer-meta">
         <div>
           <p>
-            © {{ new Date().getFullYear() }} EventOS Studio. All rights
-            reserved.
+            © {{ new Date().getFullYear() }} Eventifier. All rights reserved.
           </p>
           <p class="footer-attribution">
             Images by
