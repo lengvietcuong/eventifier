@@ -6,26 +6,16 @@ See it in action: https://eventifier.vercel.app/
 
 ## Getting Started
 
-### Installation
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Development
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-### Build
-
-```bash
-npm run build
-```
-
-### Preview
-
-```bash
-npm run preview
-```
+The application will be available at http://localhost:5173.
